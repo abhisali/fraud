@@ -4,7 +4,7 @@ import cv2
 import os
 
 # Path to Tesseract installation
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\salia\OneDrive\Documents\FunWithPython\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 def extract_text(image_path):
     if not os.path.exists(image_path):

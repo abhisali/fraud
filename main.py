@@ -3,7 +3,7 @@ import pytesseract
 import cv2
 
 # Path to Tesseract
-pytesseract.pytesseract.tesseract_cmd = r"C:\Users\salia\OneDrive\Documents\FunWithPython\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Load trained model
 model = joblib.load("fraud_detector.pkl")
